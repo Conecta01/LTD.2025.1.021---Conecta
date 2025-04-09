@@ -1,5 +1,14 @@
 # LTD.2025.1.021-Conecta
 
+## Sumário
+* #### Introdução
+* #### Objetivo
+* #### Backlogs do Produto
+* #### Cronograma
+* #### Materiais e Métodos
+* #### Resultados
+* #### Conclusão
+
 ## Introdução
 Entrar na faculdade é um grande passo, mas pode ser desafiador encontrar oportunidades para se envolver e ganhar experiência prática. Muitos calouros querem participar de projetos acadêmicos, mas nem sempre sabem por onde começar ou como encontrar iniciativas já em andamento.
 
