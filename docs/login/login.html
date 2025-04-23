@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - CONNECTA</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>CONNECTA</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="/cadastro/cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="login" class="section">
+      <h3>Login</h3>
+      <form class="form-box" onsubmit="handleLogin(event)">
+        <input type="email" id="login-email" placeholder="Seu e-mail" required>
+        <input type="password" id="login-senha" placeholder="Sua senha" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </section>
+
+    <section id="dashboard" class="dashboard">
+      <h3>Bem-vindo ao seu Painel, Usuário!</h3>
+      <p>Aqui você verá suas conexões, eventos e mensagens.</p>
+      <button onclick="logout()">Sair</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CONNECTA. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
